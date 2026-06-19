@@ -7,4 +7,4 @@
 5. Kill proposals that duplicate existing machinery, require unavailable capabilities, or add scaffolding without mechanism.
 6. Keep examined/refuted ideas visible with reasons and name at least one surviving weakness.
 
-See `receipts.md#research` for a reproduced nonexistent-package example.
+See `examples.md#research` for an illustrative nonexistent-package scenario.

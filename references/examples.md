@@ -1,10 +1,10 @@
-# Reproduced receipts and coverage
+# Illustrative scenarios and coverage limits
 
-These are compact examples, not universal validation of the method.
+These compact scenarios explain the plays. They are not reproducible evidence that the whole method works in every environment.
 
 ## Debugging
 
-A job emitted empty output. Reverting the newest logging commit did not change the symptom. Stage counts showed 8 rows entering a threshold filter and 0 leaving it; focused config history found an earlier threshold change from 10 to 1000. The newest commit changed reporting, not behavior.
+A job emitted empty output. Reverting the newest logging commit did not change the symptom. Stage counts showed eight rows entering a threshold filter and none leaving it; focused config history found an earlier threshold change from 10 to 1000. The newest commit changed reporting, not behavior.
 
 ## Refactor
 
@@ -28,4 +28,4 @@ A non-atomic counter passed single-threaded. With 8 threads × 5,000 increments,
 
 ## Learning lifecycle
 
-The retention play is a synthesis of proven execution discipline and continuous-learning lifecycle practices. This package has not yet run controlled clean-session benchmarks of skill promotion, retrieval precision, or regression rates. Keep candidates staged until those evaluations exist in the target environment.
+The retention play is a candidate method until controlled clean-session benchmarks establish retrieval precision, task improvement, and regression rates in the target agent environment. Keep candidates staged until those evaluations pass.

@@ -1,11 +1,18 @@
 # Changelog
 
-## Verified-learning edition — 2026-06-18
+## 2026-06-18 — focused project cycle, workspace tool, scope/release gates
 
-- Reduced the main spine from 1,099 to 731 words (33.5%) and centralized worked examples in `references/receipts.md`.
+- Integrated the useful project controls from AI Ghost Mode: one locked target, explicit non-goals, keep/cut/park recovery, thin vertical slices, a parking lot, scope/stack change gates, and an evidence-gated release decision.
+- Removed disappearance/reappearance branding, lifestyle guardrails, attention-habit prescriptions, and other material not needed for engineering execution.
+- Added `references/project-cycle.md`, `assets/project_contract.md`, and `assets/release_gate.md`.
+- Added a hardened `scripts/fable_workspace.py` with a fixed `.fable/` path, managed-workspace reset checks, restrictive permissions, symlink refusal, atomic writes, structured proof entries, evidence-required gate updates, and ship gating.
+- Added optional OpenAI interface metadata in `agents/openai.yaml`.
+- Reclassified anecdotal “receipts” as illustrative examples so package validation is not overstated.
+- Tightened the main skill while expanding its trigger to stalled builds, scope drift, and release decisions.
+
+## 2026-06-18 — gated retention, tightened spine
+
+- Reduced the prior main spine and centralized worked examples.
 - Reframed the loop as contract → diagnose → slice → verify → critique → selective retention.
-- Added `references/learning.md`: receipt-gated extraction, search-before-create, project/user scope, staged candidates, clean with/without-skill evaluation, versioning, deprecation, and archival.
-- Added `assets/skill_candidate_template.md` with trigger/non-trigger conditions, proof-table provenance, positive/negative/boundary evals, and revalidation rules.
-- Added stable proof-table IDs so retained knowledge can cite verified claims.
-- Updated the amount validator to use `Decimal` instead of binary floating point.
-- Preserved the debugging, refactor, extraction, automation, research, and concurrency plays.
+- Added receipt-gated learning candidates, search-before-create, scoped storage, clean evaluation, versioning, deprecation, and archival.
+- Added stable proof-table IDs and a strict amount-validation scaffold.

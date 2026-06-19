@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fable Method"
+  short_description: "Verified coding with scope and release gates"
+  default_prompt: "Use $fable-method to lock the outcome, diagnose before changing code, ship the smallest verified slice, and report receipts and caveats."

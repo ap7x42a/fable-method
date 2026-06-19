@@ -6,4 +6,4 @@
 4. Distinguish absent from malformed and retain malformed raw values for debugging.
 5. Gate adoption with an n/m harness containing a positive case, a non-instance to refuse, a missing-field case, and a present-but-malformed case.
 
-Use `assets/status_enum.py`. See `receipts.md#extraction` for a reproduced fabrication trap.
+Use `assets/status_enum.py`. See `examples.md#extraction` for an illustrative fabrication trap.

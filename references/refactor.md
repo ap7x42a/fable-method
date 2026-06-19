@@ -6,4 +6,4 @@
 4. Delete proven-dead machinery in the cutover and state the net line delta.
 5. Rerun the frozen surface and compare against golden. Any allowed difference must already exist in the contract.
 
-See `receipts.md#refactor` for a reproduced output-drift example.
+See `examples.md#refactor` for an illustrative output-drift scenario.

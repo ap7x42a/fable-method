@@ -1,48 +1,27 @@
-# Fable Method — verified-learning edition
+# Fable Method
 
-A working method for **consequential coding**, where a plausible-but-wrong result is costly: ambiguous debugging, behavior-preserving refactors, extraction pipelines, mutating automation, concurrency, external dependencies, or multi-step work that's hard to verify by inspection.
-
-> **Core rule.** No consequential claim without a receipt — a test, diff, log, runtime result, filesystem fact, git history, or source actually read. Where intuition would carry the decision, install an instrument.
-
-Fable is an **execution method first**:
+Fable is an evidence-first engineering method:
 
 ```text
-contract → diagnose → slice → verify → critique
+contract → diagnose → slice → verify → critique → decide
 ```
 
-A verified, non-obvious, reusable discovery may then enter an **optional, gated** retention path — never every-prompt extraction, never a direct write into a live skill library:
+For stalled or multi-session work, the optional project-cycle play adds only the useful focus controls:
 
 ```text
-proof-table receipt → search/dedupe → staged candidate
+locked target → keep/cut/park recovery → thin verified slices
+→ gated scope/stack changes → evidence-gated release decision
+```
+
+A verified, non-obvious, reusable discovery may then enter a guarded retention path:
+
+```text
+proof-table receipt → dedupe/search → staged candidate
 → positive/negative/boundary evaluation → promotion → revalidation or retirement
 ```
 
-This keeps the useful continuous-learning features — selective extraction, trigger-focused descriptions, update-vs-create decisions, project/user scope, versioning, cross-links, deprecation, and archival — while rejecting every-prompt extraction pressure and direct session-to-live-memory writes.
+The package deliberately omits “disappear and grind” framing. Focus means one bounded outcome, controlled change, and honest release evidence—not secrecy, lifestyle rules, or performative intensity.
 
-## Structure
+## Optional workspace
 
-- **[`SKILL.md`](./SKILL.md)** — the spine: the core rule, the loop, the play table, and the always-on invariants. Read it every run.
-- **[`references/`](./references)** — load only what the task needs:
-  - **execution plays** — [`debugging`](./references/debugging.md), [`refactor`](./references/refactor.md), [`extraction`](./references/extraction.md), [`automation`](./references/automation.md), [`research`](./references/research.md), [`concurrency`](./references/concurrency.md)
-  - [`learning.md`](./references/learning.md) — the gated retention lifecycle
-  - [`receipts.md`](./references/receipts.md) — the plays' reproduced worked examples
-- **[`assets/`](./assets)** — runnable templates: [`proof_table.md`](./assets/proof_table.md), [`status_enum.py`](./assets/status_enum.py), [`skill_candidate_template.md`](./assets/skill_candidate_template.md).
-- **[`BUILD_RECEIPT.md`](./BUILD_RECEIPT.md)** — this bundle's own proof table; **[`CHANGELOG.md`](./CHANGELOG.md)** — edition history.
-
-## Proven vs. candidate
-
-Obeying its own creed: the execution plays carry receipts reproduced under real git, logs, disk, and threads (see `BUILD_RECEIPT.md`). The **learning lifecycle is a candidate method** — its one empirical claim, that retained skills improve future-agent performance, is **unverified** until benchmarked in your target environment. Keep candidates staged until they pass a clean with/without-skill evaluation.
-
-## Use it
-
-`SKILL.md` uses the standard `name` + `description` frontmatter, so skills-based agents can register it. Copy the directory so the plays and assets resolve:
-
-```bash
-cp -r fable-method <your-agent-skills-dir>/
-```
-
-Or read `SKILL.md` and pull plays as needed. It's a checklist, not a transplant — on a strong model it reinforces good habits; it cannot raise the reasoning ceiling.
-
-## License
-
-MIT — see [`LICENSE`](./LICENSE).
+`scripts/fable_workspace.py` (Python 3.9+, standard library only) creates a local `.fable/` contract, proof table, evidence log, parking lot, release gate, and machine-readable state. It uses a fixed directory, refuses to replace unrelated content, requires evidence for passed gate items, and applies restrictive filesystem permissions where supported.

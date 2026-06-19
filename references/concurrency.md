@@ -7,4 +7,4 @@
 5. Prefer removing shared mutable state; otherwise use an atomic primitive, transaction, lock, or serialized queue.
 6. Rerun the identical stress harness after the fix.
 
-See `receipts.md#concurrency` for a reproduced lost-update example.
+See `examples.md#concurrency` for an illustrative lost-update scenario.

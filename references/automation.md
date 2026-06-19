@@ -15,4 +15,4 @@ Before a real write:
 6. Emit named audit/telemetry events for limits and truncation.
 7. After execution, reconcile actual changes against the manifest and prove rollback on a representative item.
 
-See `receipts.md#automation` for a reproduced deletion-safety example.
+See `examples.md#automation` for an illustrative deletion-safety scenario.

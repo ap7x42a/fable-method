@@ -9,4 +9,4 @@ The trap is blaming the newest plausible change or patching around the symptom.
 5. Falsify the obvious cause by reverting or disabling it and rerunning the same reproduction.
 6. Ship only when the fix changes the original failing observation and the proof table records the result.
 
-See `receipts.md#debugging` for a reproduced red-herring example.
+See `examples.md#debugging` for an illustrative red-herring scenario.
