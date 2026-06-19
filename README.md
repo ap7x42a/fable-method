@@ -20,7 +20,7 @@ proof-table receipt → dedupe/search → staged candidate
 → positive/negative/boundary evaluation → promotion → revalidation or retirement
 ```
 
-The package deliberately omits “disappear and grind” framing. Focus means one bounded outcome, controlled change, and honest release evidence—not secrecy, lifestyle rules, or performative intensity.
+Focus means one bounded outcome, controlled change, and honest release evidence—not secrecy, lifestyle rules, or performative intensity.
 
 ## Optional workspace
 
